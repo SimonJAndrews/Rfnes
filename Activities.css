@@ -1,0 +1,30 @@
+* Reset some basic elements for consistent styling across browsers */
+*{
+    margin: 0;
+    padding:0;
+}
+
+/* Css for header above*/
+
+header{
+    display: flex;
+    font-size: 18px;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+
+ul li a{
+    color: #E5E7EB;
+    text-decoration: none;
+}

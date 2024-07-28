@@ -1,75 +1,231 @@
 /* Reset some basic elements for consistent styling across browsers */
-* {
+*{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding:0;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
+/* Css for header above*/
 
-header {
-    background-color: #1e4ea0; /* Dark Blue */
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-.container {
+header{
     display: flex;
-    flex-wrap: wrap;
+    font-size: 18px;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    color: white;
 }
 
-.side-menu {
-    background-color: #003399; /* Blue */
-    color: #fff;
-    padding: 1rem;
-    width: 200px;
-    min-height: 100vh;
-}
-
-.side-menu nav ul {
+ul{
+    display: flex;
     list-style: none;
+    gap:30px;
 }
 
-.side-menu nav ul li {
-    margin: 1rem 0;
-}
-
-.side-menu nav ul li a {
-    color: #fff;
+ul li a{
+    color: #E5E7EB;
     text-decoration: none;
 }
 
-.side-menu nav ul li a:hover {
-    text-decoration: underline;
+/* Css for container 1*/
+
+
+.containerOne{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 60px;
+    gap: 20px;
+    height: 210px;
+    
 }
 
-main {
+.mainimage{
+    display: flex;
+    height: 210px;px;
+    width: 500px;
+    padding:0;
+
+}
+
+p{
+    color: #E5E7EB;
+}
+
+.paraone{
+    font-weight: bold;
+    font-size: 48px;
     flex: 1;
-    padding: 1rem;
+    flex-wrap: wrap;
+    width: 400px;
+    padding-bottom: 20px;
+    margin: 0;
+    
 }
 
-h2 {
-    color: #002366;
-    margin-bottom: 0.5rem;
+.paratwo{
+    
+    padding-bottom: 20px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
+button{
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    flex: 1;
+    background-color: #6ca2f9;
+    border-radius: 10px;
+    border: none;
+}
 
-    .side-menu {
-        width: 100%;
-        min-height: auto;
-    }
 
-    main {
-        width: 100%;
-    }
+
+#two{
+    background-color:#e5e7ebb1 ;
+    width: 500px;
+}
+
+/* CSS for container two */
+
+.containerTwo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+h2{
+    padding:15px;
+}
+
+
+/*CSS for container three */
+
+.containerThree{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+img{
+    height: 170px;px;
+    width: 170px;px;
+    padding: 15px;
+}
+
+/* CSS for container  four */
+
+.containerFour{
+
+    display:flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 15px;
+
+}
+
+.containerFour p{
+    text-align: center;
+    width:200px;
+    color: #1F2937;
+}
+
+/* CSS for container five */
+
+.containerFive{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #E5E7EB;
+    height:30px;
+    margin-top:0;
+    padding-top:50px;
+    padding-left: 110px;
+
+
+}
+
+.containerFive p{
+    display: flex;
+    color: #1F2937;
+    width: 600px;
+    font-size: 32px;
+    font-style: italic;
+    margin:0;
+    padding-top:0;
+    overflow: visible;
+}
+
+.author{
+    display: flex;
+    background-color: #E5E7EB;
+    padding-left: 810px;
+    height:150px;
+    padding-top: 7px;
+}
+
+.author p{
+    color: black;
+    font-weight: bold;
+    padding-top:20px
+}
+
+/* CSS for container six*/
+
+.containerSix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    
+}
+
+.card{
+
+    background-color:#458cff ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:900px;
+    height:135px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.buttoncard{
+
+    background-color:#458cff ;
+    border: solid 2px #f9faf8;
+    width: 150px;
+    height:35px;
+}
+
+.para3{
+    font-size: 26px;
+    color: white;
+    padding: 0;
+    margin:0
+}
+
+.para4{
+
+    padding: 0;
+    margin:0
+
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937 ;
+    color: white;
+    height:85px;
+    padding: 0;
+    margin: 0;
 }
